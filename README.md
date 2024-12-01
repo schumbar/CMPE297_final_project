@@ -1,23 +1,35 @@
 # ▶️ Video Fact Finder
 
-This project analyzes a YouTube video podcast and provides a summarized version of the content. Simply input the YouTube URL, and the CrewAI agents handles the rest.
+This project analyzes a YouTube video and provides a summarized version of the content. 
+Simply input the YouTube URL, and the OpenAI and Perplexity agents handle the rest.
 
 ## Setup
 
-Before running the application, add your API keys in a `.env` file.
-
-### Install the packages
+Before running the application, add your API keys in a `.env` file (Note: there are no quotes around the keys).
 
 ```bash
-pip install -r requirements.txt
+# Contents of .env file below:
+OPENAI_API_KEY=REPLACEME
+PPLX_API_KEY=REPLACEME
 ```
 
-Before running this script, ensure **FFmpeg** is installed and added to your system's PATH.
-Alternatively, you can specify the location of FFmpeg in the script using the 'ffmpeg_location' option.
-For Windows users, download FFmpeg from `https://ffmpeg.org/download.html` and add the 'bin' folder to the PATH.
+### Instructions To Run Application
 
-#### Time to spin up the application
+The following instructions assume that you are running docker on your local machine. 
+You are also expected to be able to run docker-compose commands. 
 
-```bash
-streamlit run main.py
-```
+1. Clone the repository:
+`git clone https://github.com/schumbar/CMPE297_final_project`
+
+2. Change directory to the project folder:
+`cd <path_to_cloned_repo>/CMPE297_final_project/`
+
+3. Verify that docker desktop is running on your machine. You will probably just need to run the application and verify that docker desktop window shows up.
+
+4. Run the following command to build and run the docker image:
+`docker-compose up --build`
+
+5. Open a new browser window and navigate to the following URL:
+`http://localhost:8501`
+
+6. When you are done using the application, you can stop the docker container by pressing `CTRL+C` in the terminal where you ran the `docker-compose up --build` command.
