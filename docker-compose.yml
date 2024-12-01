@@ -1,0 +1,17 @@
+# ===============================
+# File: docker-compose.yml
+# ===============================
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - ./config:/app/config
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PERPLEXITYAI_API_KEY=${PERPLEXITYAI_API_KEY}
+    restart: unless-stopped
