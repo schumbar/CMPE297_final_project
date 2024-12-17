@@ -33,3 +33,9 @@ You are also expected to be able to run docker-compose commands.
 `http://localhost:8501`
 
 6. When you are done using the application, you can stop the docker container by pressing `CTRL+C` in the terminal where you ran the `docker-compose up --build` command.
+
+## Usage
+
+1. Enter the YouTube URL in the input field.
+For example:
+https://www.youtube.com/watch?v=7E9uMZYTMU8
