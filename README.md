@@ -10,7 +10,7 @@ Please see below for the list of deliverables:
 
 1. `CMPE297_BayAreaRockers_FinalProject_Report.pdf`: The PDF file for the final report for the project.
 2. `CMPE297_BayAreaRockers_FinalProject_SlideDeck.pdf`: The PDF file for the slide deck for the project.
-3. [Slide Deck and Demo Videoo](https://www.youtube.com): A video showcasing the slide deck and demo of the application.
+3. [Slide Deck and Demo Videoo](https://youtu.be/2qAIi6h4RcQ): A video showcasing the slide deck and demo of the application.
 
 ## Setup
 
