@@ -1,11 +1,11 @@
 # ▶️ Video Fact Finder
 
-This project analyzes a YouTube video and provides a summarized version of the content. 
+This project analyzes a YouTube video and provides a summarized version of the content.
 Simply input the YouTube URL, and the OpenAI and Perplexity agents handle the rest.
 
 ## Deliverables
 
-All deliverables for this project are located in the `deliverables` folder. 
+All deliverables for this project are located in the `deliverables` folder.
 Please see below for the list of deliverables:
 
 1. `CMPE297_BayAreaRockers_FinalProject_Report.pdf`: The PDF file for the final report for the project.
@@ -24,8 +24,8 @@ PPLX_API_KEY=REPLACEME
 
 ### Instructions To Run Application
 
-The following instructions assume that you are running docker on your local machine. 
-You are also expected to be able to run docker-compose commands. 
+The following instructions assume that you are running docker on your local machine.
+You are also expected to be able to run docker-compose commands.
 
 1. Clone the repository:
 `git clone https://github.com/schumbar/CMPE297_final_project`
@@ -47,4 +47,8 @@ You are also expected to be able to run docker-compose commands.
 
 1. Enter the YouTube URL in the input field.
 For example:
-https://www.youtube.com/watch?v=7E9uMZYTMU8
+`https://www.youtube.com/watch?v=7E9uMZYTMU8`
+
+2. Click the "Analyze Video" button.
+
+3. Wait for the application to process the video and generate the summary and findings.
